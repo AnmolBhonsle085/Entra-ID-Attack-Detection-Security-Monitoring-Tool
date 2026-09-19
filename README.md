@@ -47,17 +47,16 @@ entra-id-attack-detector/
 
 **How It Works**
 
+```text
 Sample Entra ID Sign-In Logs
             ↓
-       Python / Pandas
+      Python / Pandas
             ↓
       Detection Rules
             ↓
-    Security Alert Output
+   Security Alert Output
             ↓
-     security_alerts.csv
-
-The Python script reads the sign-in logs, applies predefined detection rules, identifies suspicious authentication activity, and generates a structured security alert report.
+    security_alerts.csv
 
 **Detection Logic**
 

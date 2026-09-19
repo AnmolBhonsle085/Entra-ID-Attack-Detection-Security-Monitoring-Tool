@@ -61,13 +61,14 @@ The Python script reads the sign-in logs, applies predefined detection rules, id
 
 **Detection Logic**
 
-**Detection**	                             **Logic**	            **Severity**
+| Detection | Logic | Severity |
+|---|---|---|
+| Brute Force | ≥5 failed login attempts by a user | High |
+| Suspicious IP | IP targets ≥2 different users | High |
+| Suspicious OAuth | High-risk sign-in involving OAuth/unknown application | High |
+| MFA Failure | MFA challenge failure detected | Medium |
+| Risky Sign-In | Sign-in risk marked medium/high | Medium/High |
 
-Brute Force	                          ≥5 failed login attempts by a user	  High
-Suspicious IP	                   IP targets ≥2 different users	  High
-Suspicious OAuth	  High-risk sign-in involving OAuth/unknown application	  High
-MFA Failure	                              MFA challenge failure detected	  Medium
-Risky Sign-In	                 Sign-in risk marked medium/high	  Medium/High
 
 **Installation & Usage**
 

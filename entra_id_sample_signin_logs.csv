@@ -1,0 +1,174 @@
+timestamp,userPrincipalName,ipAddress,city,country,appDisplayName,status,authenticationRequirement,clientAppUsed,riskLevel,failureReason,scenario
+2026-09-18 09:01:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:03:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:04:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:05:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:14:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 09:22:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 09:30:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:35:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:35:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:36:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:39:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 09:41:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:47:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 09:49:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:52:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 09:52:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:54:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 09:57:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 09:59:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:00:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:01:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:02:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:03:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:04:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:05:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:06:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:07:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:08:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:09:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:10:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:11:00,rahul@contoso.onmicrosoft.com,185.220.101.44,Amsterdam,Netherlands,Office 365,Failure,multiFactorAuthentication,Browser,medium,Invalid username or password,brute_force
+2026-09-18 10:15:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 10:18:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:19:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:24:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:24:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:25:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 10:30:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:30:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:31:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:34:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:37:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:41:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 10:47:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:48:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:50:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:51:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:52:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 10:53:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:54:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:55:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:58:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 10:59:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:05:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:06:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:06:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:15:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 11:20:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,impossible_travel
+2026-09-18 11:21:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 11:22:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:22:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:25:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:26:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 11:28:00,anmol@contoso.onmicrosoft.com,20.50.10.22,London,United Kingdom,Microsoft Teams,Success,multiFactorAuthentication,Browser,high,,impossible_travel
+2026-09-18 11:30:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 11:31:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 11:32:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:34:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:38:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 11:38:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:39:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 11:43:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 12:00:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:01:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:01:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:02:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:04:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:06:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:06:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:08:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:09:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:10:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:11:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:12:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:14:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:14:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:14:00,priya@contoso.onmicrosoft.com,51.89.22.71,Paris,France,Microsoft 365,Failure,multiFactorAuthentication,Browser,medium,MFA challenge denied,mfa_fatigue
+2026-09-18 12:14:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:15:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:16:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 12:25:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 12:28:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:28:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:28:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:30:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 12:39:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:42:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:42:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:43:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 12:43:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:43:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:52:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:53:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:55:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:56:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 12:59:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:00:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:00:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:10:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 13:23:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 13:31:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:33:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 13:34:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:36:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 13:36:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 13:42:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 13:43:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 13:43:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:45:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:53:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:54:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:56:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 13:59:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 14:07:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:23:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 14:32:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 14:33:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 14:35:00,anmol@contoso.onmicrosoft.com,91.198.174.10,Berlin,Germany,Unknown OAuth Application,Success,multiFactorAuthentication,Browser,high,,oauth_consent
+2026-09-18 14:36:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:38:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 14:40:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 14:42:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:43:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:45:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 14:45:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:47:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 14:54:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:06:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:09:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 15:09:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:12:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 15:13:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:16:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 15:18:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 15:19:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 15:19:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 15:22:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:29:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 15:29:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:30:00,priya@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:42:00,rahul@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:43:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:45:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:49:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 15:55:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 15:57:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 15:58:00,anmol@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:00:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:02:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:06:00,priya@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:06:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:06:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:09:00,rahul@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Microsoft Teams,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 16:11:00,admin@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:21:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:22:00,priya@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Microsoft Teams,Success,multiFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:29:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 16:32:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:32:00,anmol@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 16:35:00,admin@contoso.onmicrosoft.com,103.120.10.15,Pune,India,Outlook,Success,singleFactorAuthentication,Browser,none,,normal
+2026-09-18 16:40:00,anmol@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal
+2026-09-18 16:53:00,rahul@contoso.onmicrosoft.com,49.205.50.10,Bengaluru,India,Office 365,Success,multiFactorAuthentication,Browser,none,,normal
+2026-09-18 16:53:00,admin@contoso.onmicrosoft.com,103.120.11.20,Mumbai,India,Outlook,Success,singleFactorAuthentication,Mobile Apps and Desktop clients,none,,normal

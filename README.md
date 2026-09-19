@@ -2,7 +2,7 @@
 
 A Python-based security monitoring tool that analyzes Microsoft Entra ID-style sign-in logs and detects common identity-based security threats. The project demonstrates SOC detection concepts such as brute-force detection, suspicious IP identification, OAuth application monitoring, and MFA failure detection.
 
-Note: This project uses a simulated/sample Entra ID sign-in dataset for detection and testing. It does not retrieve live Microsoft Entra ID logs.
+**Note:** This project uses a simulated/sample Entra ID sign-in dataset for detection and testing. It does not retrieve live Microsoft Entra ID logs.
 
 **Features**
 
@@ -82,13 +82,13 @@ reports/security_alerts.csv
 
 The tool can generate alerts such as:
 
-High,Brute Force,rahul@contoso.onmicrosoft.com,,12 failed login attempts
+High, Brute Force, rahul@contoso.onmicrosoft.com, 12 failed login attempts
 
-High,Suspicious IP,,185.220.10.15,Targeted 4 different users
+High, Suspicious IP, 185.220.10.15, Targeted 4 different users
 
-High,Suspicious OAuth,anmol@contoso.onmicrosoft.com,91.198.174.10,Unknown OAuth Application
+High, Suspicious OAuth, anmol@contoso.onmicrosoft.com, 91.198.174.10, Unknown OAuth Application
 
-Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied
+Medium, MFA Failure, priya@contoso.onmicrosoft.com, 51.89.22.71, MFA challenge denied
 
 **Security Concepts Demonstrated**
 Identity-based threat detection

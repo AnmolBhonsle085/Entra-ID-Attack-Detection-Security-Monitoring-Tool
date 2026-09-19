@@ -1,51 +1,77 @@
-**Entra ID Attack Detection & Security Monitoring Tool**
+# Microsoft Entra ID Attack Detection & Identity Security Monitoring Tool
 
-- A Python-based security monitoring tool that analyzes Microsoft Entra ID-style sign-in logs and detects common identity-based security threats. The project demonstrates SOC detection concepts such as brute-force detection, suspicious IP identification, OAuth application monitoring, and MFA failure detection.
+A Python-based security monitoring tool that analyzes simulated Microsoft Entra ID sign-in logs to detect identity-based threats and enrich suspicious IP addresses using the VirusTotal API.
 
-**Note:** This project uses a simulated/sample Entra ID sign-in dataset for detection and testing. It does not retrieve live Microsoft Entra ID logs.
+> **Note:** The Entra ID sign-in logs used in this project are simulated/sample data for detection and testing. The project does not retrieve live Entra ID telemetry.
 
-**Features**
+## Features
 
-- Brute-Force Detection
-- Identifies users with multiple failed login attempts.
-- Threshold: 5 or more failed attempts.
-- Suspicious IP Detection
-- Detects IP addresses attempting authentication against multiple users.
-- Helps identify password spraying or credential attack activity.
-- Suspicious OAuth Application Detection
-- Identifies high-risk sign-ins involving suspicious/unknown OAuth applications.
-- MFA Failure Detection
-- Detects repeated MFA challenge failures.
-- Risky Sign-In Detection
-- Identifies sign-ins marked with medium or high risk levels.
-- Security Alert Report
-- Automatically exports detected alerts to a CSV file for investigation.
+- **Brute-Force Detection**
+  - Detects users with 5 or more failed login attempts.
 
-**Technologies Used**
+- **Suspicious IP Detection**
+  - Identifies IP addresses attempting authentication against multiple users.
+  - Helps identify potential password-spraying activity.
+
+- **Suspicious OAuth Application Detection**
+  - Detects high-risk sign-ins involving suspicious or unknown OAuth applications.
+
+- **MFA Failure Detection**
+  - Identifies failed MFA challenges.
+
+- **Risky Sign-In Detection**
+  - Identifies sign-ins with medium or high risk levels.
+
+- **VirusTotal IP Reputation**
+  - Automatically checks detected suspicious IP addresses against VirusTotal.
+  - Retrieves malicious, suspicious, and harmless detection statistics.
+
+- **Security Alert Reporting**
+  - Generates a structured CSV security-alert report for investigation.
+
+## Technologies Used
 
 - Python
 - Pandas
-- Microsoft Entra ID concepts
+- Requests
+- Microsoft Entra ID
+- VirusTotal API
 - Identity & Access Management (IAM)
 - Security Monitoring
 - Detection Engineering
+- Threat Intelligence
 - CSV Log Analysis
 
-**Project Structure**
+## Project Structure
 
-entra-id-attack-detector/
-│
-├── Data/
-│   └── entra_id_sample_signin_logs.csv
-│
-├── reports/
-│   └── security_alerts.csv
-│
-├── detector.py
-│
-└── README.md
+    entra-id-attack-detector/
+    ├── Data/
+    │   └── entra_id_sample_signin_logs.csv
+    ├── reports/
+    │   └── security_alerts.csv
+    ├── detector.py
+    ├── README.md
+    └── .gitignore
 
-**How It Works**
+## How It Works
+
+    Simulated Entra ID Sign-In Logs
+                  ↓
+            Python / Pandas
+                  ↓
+            Detection Rules
+                  ↓
+           Suspicious IP Found
+                  ↓
+            VirusTotal API
+                  ↓
+          IP Reputation Check
+                  ↓
+           Security Alert Report
+
+The Python script reads the simulated Entra ID sign-in logs, applies predefined detection rules, identifies suspicious authentication activity, and performs VirusTotal reputation checks on detected suspicious IP addresses.
+
+## Detection Logic
 
 | Detection | Logic | Severity |
 |---|---|---|
@@ -55,44 +81,74 @@ entra-id-attack-detector/
 | MFA Failure | MFA challenge failure detected | Medium |
 | Risky Sign-In | Sign-in risk marked medium/high | Medium/High |
 
+## VirusTotal Integration
 
-**Installation & Usage**
+When a suspicious IP is detected, the tool automatically queries the VirusTotal API to obtain IP reputation information.
 
-Sample Entra ID Sign-In Logs
+Example workflow:
+
+    Suspicious IP detected
             ↓
-       Python / Pandas
+       VirusTotal API
             ↓
-      Detection Rules
-            ↓
-    Security Alert Output
-            ↓
-     security_alerts.csv
+    IP Reputation Result
 
-**Install the required Python library:**
+Example result:
 
-- python -m pip install pandas
+    Malicious: 9 | Suspicious: 0 | Harmless: 53
 
-**Run the detector:**
+The VirusTotal API key is stored as an environment variable and is not hard-coded in the source code.
 
-- python detector.py
+## Installation
 
-**The generated security alerts are saved to:**
+Install the required Python libraries:
 
-- reports/security_alerts.csv
+    python -m pip install pandas requests
 
-**Example Detection Output**
+## VirusTotal API Configuration
 
-The tool can generate alerts such as:
+Set the VirusTotal API key as an environment variable.
 
-- High, Brute Force, rahul@contoso.onmicrosoft.com, 12 failed login attempts
+### Windows PowerShell
 
-- High, Suspicious IP, 185.220.10.15, Targeted 4 different users
+    $env:VT_API_KEY="YOUR_API_KEY"
 
-- High, Suspicious OAuth, anmol@contoso.onmicrosoft.com, 91.198.174.10, Unknown OAuth Application
+The application reads the key using:
 
-- Medium, MFA Failure, priya@contoso.onmicrosoft.com, 51.89.22.71, MFA challenge denied
+    os.getenv("VT_API_KEY")
 
-**Security Concepts Demonstrated**
+**Never upload your API key to GitHub.**
+
+## Usage
+
+Run the detection tool:
+
+    python detector.py
+
+The tool analyzes the sign-in logs, detects suspicious activity, performs VirusTotal IP reputation checks, and generates the security alert report.
+
+The generated report is saved to:
+
+    reports/security_alerts.csv
+
+## Security Alerts
+
+The tool generates alerts containing:
+
+- Severity
+- Detection
+- User
+- IP
+- Details
+
+Example detections:
+
+    High    Brute Force
+    High    Suspicious IP
+    High    Suspicious OAuth
+    Medium  MFA Failure
+
+## Security Concepts Demonstrated
 
 - Identity-based threat detection
 - Authentication monitoring
@@ -102,22 +158,27 @@ The tool can generate alerts such as:
 - OAuth security monitoring
 - MFA monitoring
 - Risk-based authentication
+- Threat intelligence enrichment
+- REST API integration
 - Security alert generation
-- Basic detection engineering
+- Detection engineering
+- Security automation
 
-**Future Enhancements**
+## Limitations
 
-Microsoft Graph API integration for authorized live Entra ID data
-Automated alert notifications
-Additional identity attack detections
-Dashboard/visualization
-MITRE ATT&CK technique mapping
-Automated incident response workflows
+- The Entra ID sign-in dataset is simulated and does not represent live tenant telemetry.
+- Detection thresholds are designed for demonstration and would require tuning in a production environment.
+- VirusTotal results depend on the reputation data available through the API at the time of the lookup.
 
-**Limitations**
+## Future Enhancements
 
-- This project currently analyzes a simulated/sample dataset rather than live Microsoft Entra ID telemetry. Detection thresholds are designed for demonstration and portfolio purposes and would require tuning for a production environment.
+- Microsoft Graph API integration for authorized live Entra ID telemetry
+- Automated alert notifications
+- MITRE ATT&CK technique mapping
+- Security dashboard and visualization
+- Additional identity attack detections
+- Automated incident response workflows
 
-**Project Purpose**
+## Project Purpose
 
-- This project was developed to demonstrate practical SOC monitoring, identity security, log analysis, and detection engineering skills using Python and Microsoft Entra ID concepts.
+This project demonstrates practical SOC skills in identity security, security log analysis, detection engineering, threat intelligence enrichment, and security automation using Python.

@@ -1,0 +1,15 @@
+Severity,Detection,User,IP,Details,VirusTotal
+High,Brute Force,rahul@contoso.onmicrosoft.com,,12 failed login attempts,
+High,Brute Force,priya@contoso.onmicrosoft.com,,8 failed login attempts,
+High,Suspicious IP,,103.120.10.15,Targeted 4 different users,Malicious: 0 | Suspicious: 0 | Harmless: 0
+High,Suspicious IP,,103.120.11.20,Targeted 4 different users,Malicious: 0 | Suspicious: 0 | Harmless: 0
+High,Suspicious IP,,49.205.50.10,Targeted 4 different users,Malicious: 0 | Suspicious: 0 | Harmless: 0
+High,Suspicious OAuth,anmol@contoso.onmicrosoft.com,91.198.174.10,Unknown OAuth Application,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,
+Medium,MFA Failure,priya@contoso.onmicrosoft.com,51.89.22.71,MFA challenge denied,

@@ -47,19 +47,6 @@ entra-id-attack-detector/
 
 **How It Works**
 
-```text
-Sample Entra ID Sign-In Logs
-            ↓
-      Python / Pandas
-            ↓
-      Detection Rules
-            ↓
-   Security Alert Output
-            ↓
-    security_alerts.csv
-
-**Detection Logic**
-
 | Detection | Logic | Severity |
 |---|---|---|
 | Brute Force | ≥5 failed login attempts by a user | High |
@@ -70,6 +57,16 @@ Sample Entra ID Sign-In Logs
 
 
 **Installation & Usage**
+
+Sample Entra ID Sign-In Logs
+            ↓
+       Python / Pandas
+            ↓
+      Detection Rules
+            ↓
+    Security Alert Output
+            ↓
+     security_alerts.csv
 
 **Install the required Python library:**
 
